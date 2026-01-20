@@ -84,7 +84,7 @@ header .hrel {
 }
 
 .header_logo .logo_txt {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
   color: var(--ink-900);
