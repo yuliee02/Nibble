@@ -693,9 +693,10 @@ section .rel {
   height: 4.8rem;
   background: var(--primary);
   border-radius: 50%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GMarketSans', sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
+  padding-top: 0.3rem;
   color: var(--ink-900);
   box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.15);
   transition: all 0.3s var(--ease-bounce);
@@ -752,6 +753,7 @@ section .rel {
   color: var(--ink-500);
   line-height: 1.5;
   display: -webkit-box;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -803,6 +805,7 @@ section .rel {
 }
 
 .step_num {
+  border: 1px solid #fff;
   width: 10rem;
   height: 10rem;
   display: flex;
@@ -810,8 +813,9 @@ section .rel {
   justify-content: center;
   background: var(--primary);
   border-radius: 50%;
-  margin: 0 auto 2rem;
-  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  padding-top: 0.8rem;
+  font-family: 'GMarketSans', sans-serif;
   font-size: 3.6rem;
   font-weight: 800;
   color: var(--ink-900);
@@ -989,7 +993,7 @@ section .rel {
 }
 
 .stat_num {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GMarketSans', sans-serif;
   font-size: 5.6rem;
   font-weight: 800;
   color: var(--primary);
@@ -1314,7 +1318,7 @@ footer .rel:last-child {
 }
 
 .marquee_minimal .marquee_text {
-  font-family: 'Montserrat', 'GMarketSans', sans-serif;
+  font-family: 'GMarketSans', sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   color: var(--ink-800);
