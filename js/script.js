@@ -352,11 +352,11 @@ $(function() {
   // ========================================
   const moodData = {
     solo: { emoji: '😌', name: '조용히 혼밥' },
-    work: { emoji: '🎧', name: '카공하고파' },
-    kids: { emoji: '👶', name: '아이랑 외식' },
-    pet: { emoji: '🐕', name: '댕댕이랑' },
+    work: { emoji: '💻', name: '카공하고파' },
+    kids: { emoji: '👶🏻', name: '아이랑 외식' },
+    pet: { emoji: '🐶', name: '댕댕이랑' },
     date: { emoji: '💕', name: '분위기 있게' },
-    group: { emoji: '🎉', name: '친구들 모임' }
+    group: { emoji: '🗓️', name: '친구들 모임' }
   };
   
   $(document).on('click', '.mood_btn', function() {
