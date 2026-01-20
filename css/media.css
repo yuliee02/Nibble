@@ -683,6 +683,7 @@
   
   .result_card .card_desc {
     font-size: 1.2rem;
+    line-clamp: 1;
     -webkit-line-clamp: 1;
   }
   
